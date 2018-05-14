@@ -1,0 +1,40 @@
+/*
+ Theme Name:   parallax-frame child
+ Description:  parallax-frame child Theme
+ Author:       Naoki Ohashi
+ Author URI:   https://naoki-is.me/
+ Template:     parallax-frame
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+a:hover {
+  color: #fff;
+  outline: none;
+  text-decoration: underline; }
+
+#masthead {
+  display: none; }
+
+.entry-title, .site-title {
+  text-transform: none !important; }
+
+.home #header-featured-image {
+  height: 95vh;
+  position: relative; }
+  .home #header-featured-image .hentry {
+    position: absolute;
+    top: 47%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%); }
+
+.wrapper {
+  max-width: 1100px;
+  padding: 20px 0 !important; }
+  .wrapper #main {
+    max-width: 760px; }
+  .wrapper .sidebar {
+    max-width: 308px; }
+
+/*# sourceMappingURL=style.css.map */
