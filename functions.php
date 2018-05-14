@@ -1,5 +1,4 @@
 <?php
-
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 function theme_enqueue_styles() {
 	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
@@ -20,6 +19,3 @@ function adds_footer() {
  * Implement the core functions
  */
 require trailingslashit( get_stylesheet_directory() ) . 'inc/core.php';
-
-?>
-
